@@ -1,0 +1,67 @@
+SPE AFRICA GEOTHERMAL DATATHON 2026
+AI-Assisted Project Risk Register
+Model: llama-3.3-70b-versatile via Groq API
+======================================================================
+
+## 1. TECHNICAL RISKS — reservoir, wells, subsurface uncertainties
+
+1. **Reservoir Depletion Risk**: The geothermal reservoir may deplete faster than expected, reducing the overall heat output and project lifespan. This could be due to inaccurate initial reservoir assessments or unforeseen changes in reservoir properties.
+	* Likelihood: Medium
+	* Impact: High
+	* Mitigation measure: Regular monitoring of well performance and reservoir parameters, coupled with periodic reassessments of reservoir models to adjust extraction rates as necessary.
+2. **Well Failure Risk**: The primary or secondary wells (BLT-01 or JUT-01) could fail due to mechanical issues, scaling, or other subsurface problems, leading to a significant reduction in heat supply. Well failure would necessitate costly repairs or even the drilling of new wells.
+	* Likelihood: Medium
+	* Impact: High
+	* Mitigation measure: Implement a rigorous well maintenance schedule, including regular inspections and preventive measures against scaling and corrosion, to minimize the risk of well failure.
+3. **Subsurface Uncertainty Risk**: Uncertainties in the subsurface geology could lead to unexpected issues during drilling or operation, such as encountering unforeseen geological formations or groundwater aquifers. This could result in project delays or increased costs.
+	* Likelihood: Medium
+	* Impact: Medium
+	* Mitigation measure: Conduct thorough geological surveys and risk assessments before drilling, and maintain flexibility in project planning to accommodate unexpected subsurface conditions.
+
+## 2. ECONOMIC RISKS — LCOE sensitivity, cost overruns, energy price changes
+
+1. **Cost Overrun Risk**: The project could experience cost overruns due to unforeseen technical challenges, changes in regulatory requirements, or supply chain disruptions. This would increase the total CAPEX and potentially affect the project's economic viability.
+	* Likelihood: Medium
+	* Impact: High
+	* Mitigation measure: Develop a comprehensive project budget with contingency funds for unexpected expenses, and engage in regular cost monitoring and control measures.
+2. **Energy Price Volatility Risk**: Changes in energy market prices could affect the project's revenue, particularly if the price of alternative heating and cooling sources decreases. This volatility could impact the project's ability to maintain its target LCOE.
+	* Likelihood: High
+	* Impact: Medium
+	* Mitigation measure: Diversify the project's revenue streams, consider hedging strategies for energy prices, and maintain a competitive LCOE through operational efficiency and innovation.
+3. **LCOE Sensitivity Risk**: The project's LCOE is sensitive to various parameters, including well performance, heat pump efficiency, and operational costs. Any deviation from expected values could increase the LCOE, making the project less competitive.
+	* Likelihood: Medium
+	* Impact: Medium
+	* Mitigation measure: Regularly review and update the project's economic model to reflect actual performance and costs, and implement measures to optimize efficiency and reduce operational expenses.
+
+## 3. OPERATIONAL RISKS — system reliability, maintenance, grid dependency
+
+1. **System Reliability Risk**: The geothermal district heating and cooling system could experience reliability issues due to component failures, human error, or inadequate maintenance. This would lead to service interruptions and potential loss of customer confidence.
+	* Likelihood: Medium
+	* Impact: High
+	* Mitigation measure: Implement a robust maintenance schedule, invest in redundancy for critical components, and provide comprehensive training to operational staff to ensure prompt response to system failures.
+2. **Grid Dependency Risk**: The project's reliance on the electrical grid for power to drive the heat pump and compression chiller could be disrupted by grid outages or transmission constraints. This would impact the project's ability to deliver heating and cooling.
+	* Likelihood: Low
+	* Impact: Medium
+	* Mitigation measure: Explore backup power options, such as on-site generation or energy storage, to ensure continuous operation during grid outages, and negotiate priority access to the grid with utility providers.
+3. **Maintenance Access Risk**: Limited access to certain areas of the system for maintenance could hinder the ability to perform necessary repairs and upkeep, potentially leading to system downtime and decreased efficiency.
+	* Likelihood: Low
+	* Impact: Medium
+	* Mitigation measure: Design the system with maintenance access in mind, ensure that critical components are easily accessible, and develop a maintenance strategy that minimizes downtime and optimizes system performance.
+
+## 4. REGULATORY / ENVIRONMENTAL RISKS — permitting, induced seismicity, groundwater
+
+1. **Permitting Risk**: Delays or difficulties in obtaining necessary permits and approvals could hinder project development and operation. Changes in regulatory requirements could also impact the project's viability.
+	* Likelihood: Medium
+	* Impact: High
+	* Mitigation measure: Engage in proactive communication with regulatory bodies, ensure compliance with all relevant regulations, and maintain flexibility in project planning to accommodate potential changes in permitting requirements.
+2. **Induced Seismicity Risk**: The injection of fluids into the subsurface as part of the geothermal system could potentially induce seismic activity, posing risks to local communities and infrastructure.
+	* Likelihood: Low
+	* Impact: High
+	* Mitigation measure: Conduct thorough seismic risk assessments before operation, implement monitoring systems to detect early signs of induced seismicity, and develop strategies for immediate response and mitigation if seismic activity is detected.
+3. **Groundwater Contamination Risk**: The geothermal system could potentially contaminate groundwater sources, either through the introduction of harmful substances or the alteration of natural groundwater flow paths.
+	* Likelihood: Low
+	* Impact: High
+	* Mitigation measure: Implement robust well construction and cementing practices to prevent fluid migration, monitor groundwater quality regularly, and develop contingency plans for immediate response in case of contamination.
+
+**Overall Project Risk Rating: Medium**
+The project faces a range of technical, economic, operational, and regulatory risks. While some risks have a high potential impact, the likelihood of many of these risks is medium or low, and mitigation measures can be implemented to reduce their impact. The project's overall risk rating is medium, reflecting the need for careful management and monitoring of these risks to ensure the project's success and viability.
