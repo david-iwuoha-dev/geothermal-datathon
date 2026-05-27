@@ -1,0 +1,4 @@
+Configuration,Geo_MW_P90,Boosted_MW_P90,HP_Elec_MW_P90,Geo_MW_P50,Boosted_MW_P50,HP_Elec_MW_P50,Geo_MW_P10,Boosted_MW_P10,HP_Elec_MW_P10
+BLT-01 only,0.6,0.8,0.2,5.1,6.8,1.7,23.7,31.6,7.9
+BLT-01 + JUT-01,1.6,2.13,0.53,7.4,9.87,2.47,28.5,38.0,9.5
+All four wells,1.6,2.13,0.53,7.4,9.87,2.47,28.5,38.0,9.5
