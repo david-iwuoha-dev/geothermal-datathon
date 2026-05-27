@@ -1,0 +1,10 @@
+Component,Annual_MWh,Type
+Geothermal heating (wells),37296.0,output
+Heat pump uplift,15070.0,output
+Absorption chiller cooling,3305.0,output
+Compression chiller cooling,11088.0,output
+HP electricity consumed,3770.0,input
+Compression chiller electricity,3168.0,input
+Total heating delivered,52366.0,output
+Total cooling delivered,14393.0,output
+Total electricity consumed,6938.0,input

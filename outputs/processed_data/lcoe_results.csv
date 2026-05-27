@@ -1,0 +1,12 @@
+Metric,Value
+Total CAPEX (M€),30.34
+Annual OPEX (k€/yr),1433.6
+Annual energy delivered (MWh/yr),66759.0
+Annual electricity consumed (MWh/yr),6938.0
+Discount rate,6%
+Project lifetime (yr),30
+Capital Recovery Factor,0.0726
+LCOE base case (€/MWh),54.5
+LCOE P90 scenario (€/MWh),125.1
+LCOE P50 scenario (€/MWh),63.7
+LCOE P10 scenario (€/MWh),63.2

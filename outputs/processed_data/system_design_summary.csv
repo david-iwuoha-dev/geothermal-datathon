@@ -1,0 +1,8 @@
+Component,Capacity,Role
+BLT-01 Production Well (doublet),105 m³/h @ 77°C,Primary geothermal heat source
+JUT-01 Production Well (doublet),55 m³/h @ 72°C,Secondary geothermal heat source
+Primary Heat Exchanger,10.4 MWth,Transfer geothermal heat to district network
+Heat Pump (geothermal-source),2.99 MWth output / 0.748 MWe input,Bridge heating gap — COP 4.0
+Absorption Chiller (single-effect),1.15 MWth cooling,Geothermal-driven cooling — COP 0.75
+Compression Chiller (top-up),3.85 MWth cooling / 1.100 MWe input,Cooling top-up — COP 3.5
+Thermal Storage Tank,1342 m³ / 31.2 MWh,Buffer peak demand; steady well operation

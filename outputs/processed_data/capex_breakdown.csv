@@ -1,0 +1,10 @@
+Item,Cost_EUR,Cost_MEUR,Share_pct
+Production wells (×2),9000000.0,9.0,29.7
+Injection wells (×2),8000000.0,8.0,26.4
+Surface plant (HX/pumps),3000000.0,3.0,9.9
+Heat pump system,2691000.0,2.691,8.9
+Absorption chiller,575000.0,0.575,1.9
+Compression chiller,1347500.0,1.348,4.4
+Thermal storage tank,469700.0,0.47,1.5
+District piping,2500000.0,2.5,8.2
+Contingency (10%),2758320.0,2.758,9.1
