@@ -1,0 +1,8 @@
+ID,File,Issue,Impact,Fix
+QC-01,JUT-01.las,"Depth values are in FEET, not metres. All other wells are in metres.",HIGH — all depth-dependent calculations will be wrong if not converted.,Notebook 03 — multiply depth index by 0.3048
+QC-02,target_lithologies.csv,"depth_tvd_m column is 100% missing (3,455 / 3,455 rows).",HIGH — true vertical depth is needed for all reservoir calculations.,Notebook 03 — compute TVD from Well_Path_Data.xlsx directional survey
+QC-03,target_lithologies.csv,"porosity_pct is missing for 1,036 rows (30%).",MEDIUM — affects reservoir volume and heat-in-place calculations.,Notebook 03 — compute from density log: φ = (ρma - ρb) / (ρma - ρfl)
+QC-04,target_lithologies.csv,bulk_density_gcc is missing for 256 rows (7.4%).,LOW-MEDIUM — used for porosity calculation.,Notebook 03 — impute using sonic log (DT) via empirical relationship
+QC-05,target_lithologies.csv (all rows),"All 3,455 rows have flag = ""check"" due to deviated well TVD issue.","HIGH — flags are intentional challenge prompts, not errors.","Notebook 03 — after TVD conversion, re-evaluate and clear flags"
+QC-06,ThermoGIS_Data.xlsx,EVD-01 and PKP-01 show P50 flow rate = 0 m³/h and power = 0 MW.,HIGH — these wells cannot produce at economic rates under P50 scenario.,Notebook 05 — document as non-viable production wells; use for temperature data only
+QC-07,ThermoGIS_Data.xlsx,"Combined BLT-01 + JUT-01 P50 power = 7.4 MW, below the 10 MWth target.",HIGH — resource alone cannot meet demand at most-likely scenario.,Notebook 06 — supplement with heat pump COP uplift and hybrid system design
